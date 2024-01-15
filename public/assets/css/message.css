@@ -1,0 +1,17 @@
+.error {
+  background-color: var(--error-color);
+  padding: 16px 16px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  overflow-wrap: break-word;
+}
+
+.alert {
+  background-color: #DAF1DB;
+  padding: 16px 16px;
+  width: 100%;
+  text-align: center;
+  color: black;
+  overflow-wrap: break-word;
+}

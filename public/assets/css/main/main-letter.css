@@ -1,0 +1,9 @@
+.main-letter {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-top: 32px;
+  min-height: 90vh;
+  width: 100%;
+}

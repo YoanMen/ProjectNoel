@@ -1,0 +1,23 @@
+.snow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url('/public/assets/images/snow.png');
+  background-position: 0 0;
+  background-size: 70em;
+  animation: snowfall 30s linear infinite;
+  opacity: 0.8;
+}
+
+
+
+@keyframes snowfall {
+
+
+  100% {
+    background-position: 30em 70em;
+
+  }
+}

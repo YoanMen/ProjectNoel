@@ -1,0 +1,48 @@
+.admin-menu {
+  position: fixed;
+  top: 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+  background-color: white;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: none;
+  padding-top: 120px;
+  padding: 120px 32px 32px;
+  width: 250px;
+
+}
+
+
+
+.admin-menu__title {
+  padding-bottom: 16px;
+  text-align: center;
+
+}
+
+.admin-menu__list {
+  padding-top: 60px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.admin-menu__item {
+  font-family: var(--lexend);
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.admin-menu__item--active {
+
+  color: var(--button-color);
+
+}
+
+
+.admin-menu__item:hover {
+  opacity: 70%;
+
+}

@@ -1,0 +1,12 @@
+.divider {
+  margin: 64px 32px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+
+  overflow: hidden;
+}
+
+.divider img {
+  max-width: 724px;
+}

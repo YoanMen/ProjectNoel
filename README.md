@@ -2,7 +2,7 @@
 
 
 Creation of a site for Santa Claus using PHP. 
-
+First site with PHP, great for learning. Not finished yet
 
 
 
